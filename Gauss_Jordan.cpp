@@ -36,10 +36,10 @@ int Gauss_Jordan()
         {
             if(abs(a[i][n+1]/a[i][i])>eps)
             {
-                return 2;//No solution
+                return 2;// No solution
             }
         }
-        return 1;//Infinite solution
+        return 1;// Infinite solution
     }
-    return 0;//Solution
+    return 0;// Solution
 }
