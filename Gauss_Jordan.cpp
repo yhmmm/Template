@@ -1,6 +1,6 @@
 int n;
 double a[101][102],eps=1e-9;
-int Gauss_Jordan()
+int gaussJordan()
 {
 	int r=1;
 	for(int c=1;c<=n;c++)
