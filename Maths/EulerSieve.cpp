@@ -1,4 +1,4 @@
-int pos=0,prime[1000001],st[1000001],n;
+int pos=0,prime[1000001],st[1000001];
 void EulerSieve(int n)
 {
 	for(int i=2;i<=n;i++)
